@@ -8,7 +8,7 @@ export default class Client {
   constructor(api) {
     this.api = api;
     this.defaultHeader = {
-      'User-Agent': api.userAgent,
+      // 'User-Agent': api.userAgent,
       'Content-Type': 'application/x-www-form-urlencoded',
       Accept: 'application/json',
     };
